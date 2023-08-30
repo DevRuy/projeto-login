@@ -37,6 +37,10 @@
         width: 70%;
 
     }
+
+    div#formulario>h1{
+        font-size: 2em;
+    }
     
 }
 
@@ -54,7 +58,7 @@
     }
 
     div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
 
@@ -63,13 +67,20 @@
         background-repeat: no-repeat;
         background-position:  right;
 
-        border-top-right-radius: 0px;
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;border-bottom-right-radius: 15px;
     }
 
     div#formulario{
-        float: right;
+        float: left;
         width: 50%;
     }
+
+    div#formulario>h1{
+       font-size: 2.5em;
+    }
+
+
+
 }
