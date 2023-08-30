@@ -22,12 +22,12 @@ main{
 section#login{
     background-color: white;
     position: absolute;
-    overflow: hidden;
+    
 
     width: 250px;
     height: 500px;
 
-    border-radius: 20px;
+    border-radius: 15px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -42,6 +42,11 @@ div#imagem{
     background-size: cover;
     background-position: center center;
     height: 200px;
+
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+    
     
     
 }
