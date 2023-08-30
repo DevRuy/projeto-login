@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    body, html{
+        background: url(../imagens/pattern-lol.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    section#login{
+        width: 80vw;
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.158);
+        
+    }
+
+    div#imagem{
+        background: url(../imagens/Leona-pattern-modificada2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:  center;
+        
+        border-top-right-radius: 0px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+
+        float: left;
+        width: 30%;
+        height: 100%;
+        
+
+        
+        
+    }
+
+    div#formulario{
+        float: right;
+        width: 70%;
+
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background: url(../imagens/pattern-lol.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    section#login{
+        width: 950px;
+        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.158);
+        
+    }
+
+    div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+
+        background: url(../imagens/ziggsedaora.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:  right;
+
+        border-top-right-radius: 0px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    div#formulario{
+        float: right;
+        width: 50%;
+    }
+}

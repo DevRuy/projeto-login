@@ -7,6 +7,7 @@
     <title>Projeto Login</title>
     <link rel="shortcut icon" href="https://icons.iconarchive.com/icons/papirus-team/papirus-apps/64/league-of-legends-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
     <main>
@@ -17,10 +18,21 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>
-                    Seja bem-vindo invocador. Faça login para adentrar em Summoner's' Rift!
+                    Seja bem-vindo invocador. <br> Faça login para adentrar em Summoner's' Rift!
                 </p>
                 <form action="login.php" method="post">
-                    
+                    <div class="campo" id="email">
+                        <label for="iemail">E-mail</label>
+                        <input type="email" name="nome" id="inome" required>
+                    </div>
+                    <div class="campo" id="senha">
+                        <label for="isenha">Senha</label>
+                        <input type="password" name="senha" id="isenha" required minlength="8">
+                    </div>
+                    <div id="entrar">
+                        <input type="submit" value="Entrar">
+                    </div>
+                    <a href="#">Esqueci a senha</a>
                 </form>
             </div>
         </section>
