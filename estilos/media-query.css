@@ -2,17 +2,20 @@
 
 @media screen and (min-width: 768px) and (max-width:992px) {
     body, html{
-        background: url(../imagens/pattern-lol.jpg);
+        background: url(../imagens/pattern-lol-embassada.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center;
     }
     
     section#login{
         width: 80vw;
-        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.158);
+        height: 400px;
+        /*box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.158);*/
         
     }
 
+    /*Imagem*/
     div#imagem{
         background: url(../imagens/Leona-pattern-modificada2.jpg);
         background-size: cover;
@@ -27,7 +30,7 @@
         width: 30%;
         height: 100%;
         
-
+        box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.150);
         
         
     }
@@ -46,18 +49,71 @@
         font-size: 1.3em;
     }
     
+    /*CAMPO*/
+    form>div.campo{
+        width: 90%;
+        height: 45px; 
+        margin: 15px auto;
+        border: 3px solid var(--cor-fundo);      
+    }
+
+    div.campo > span{
+        font-size: 2em;
+        /*background-color: black;*/
+        width: 45px;
+        padding: 4px 0px 3px 8px;
+    
+    }
+    
+    div.campo > input{
+
+        font-size: 1em;
+        width: calc(100% - 50px);
+        transform: translateY(-10px);
+        height: 100%;   
+    }
+
+    /*BOTÕES*/ 
+    form > input[type=submit]{
+                
+        font-size: 1.5em;
+        width: 90%;
+        height: 45px;
+        padding-bottom: 3px;
+        margin: 0 auto;
+            
+    }
+
+
+    form>a.botao{
+        font-size: 1em;
+        width: 50%;
+        height: 35px;
+        padding-top: 5px;
+        margin: 0px auto;
+        margin-top: 12px;       
+    }
 }
+
+    
+
+    
 
 @media screen and (min-width: 992px) {
     body{
-        background: url(../imagens/pattern-lol.jpg);
+        background: url(../imagens/pattern-lol-embassada.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        
+
     }
 
     section#login{
         width: 950px;
-        box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.158);
+        height: 490px;
+        /*box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.158);*/
         
     }
 
@@ -74,6 +130,8 @@
         border-top-right-radius: 15px;
         border-top-left-radius: 0px;
         border-bottom-left-radius: 0px;border-bottom-right-radius: 15px;
+
+        box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.150);
     }
 
     div#formulario{
@@ -87,8 +145,53 @@
 
     div#formulario>p{
         font-size: 1.3em;
+        padding: 10px 0px;
+    }
+    
+    /*CAMPO*/
+    form>div.campo{
+        width: 90%;
+        height: 55px; 
+        margin: 15px auto;
+        border: 3px solid var(--cor-fundo);      
+    }
+
+    div.campo > span{
+        font-size: 2.45em;
+        /*background-color: black;*/
+        width: 50px;
+        padding: 6px 0px 0px 8px;
+    
+    }
+    
+    div.campo > input{
+
+        font-size: 1em;
+        width: calc(100% - 55px);
+        transform: translateY(-14px);
+        height: 100%;   
+    }
+
+    /*BOTÕES*/ 
+    form > input[type=submit]{
+                
+        font-size: 1.5em;
+        width: 70%;
+        height: 50px;
+        padding-bottom: 5px;
+        margin: 0 auto;
+        border-radius: 15px;
+            
     }
 
 
+    form>a.botao{
+        font-size: 1em;
+        width: 50%;
+        height: 35px;
+        padding-top: 5px;
+        margin: 0px auto;
+        margin-top: 12px;       
+    }
 
 }
