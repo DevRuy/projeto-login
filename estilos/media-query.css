@@ -70,7 +70,7 @@
         font-size: 1em;
         width: calc(100% - 50px);
         height: 100%;   
-        transform: translateY(-10px);
+        transform: translateY(-11px);
     }
 
     /*BOTÕES*/ 
@@ -169,7 +169,7 @@
         font-size: 1em;
         width: calc(100% - 55px);
         height: 100%; 
-        transform: translateY(-14px);  
+        transform: translateY(-15px);  
     }
 
     /*BOTÕES*/ 
